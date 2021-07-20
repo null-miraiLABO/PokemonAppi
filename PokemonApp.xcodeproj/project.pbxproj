@@ -11,6 +11,17 @@
 		A136E3DF26A6895700F83B1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A136E3DE26A6895700F83B1D /* ContentView.swift */; };
 		A136E3E126A6895A00F83B1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A136E3E026A6895A00F83B1D /* Assets.xcassets */; };
 		A136E3E426A6895A00F83B1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A136E3E326A6895A00F83B1D /* Preview Assets.xcassets */; };
+		A136E3F426A68CEB00F83B1D /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = A136E3EC26A68CEA00F83B1D /* 02.png */; };
+		A136E3F526A68CEB00F83B1D /* 03.png in Resources */ = {isa = PBXBuildFile; fileRef = A136E3ED26A68CEA00F83B1D /* 03.png */; };
+		A136E3F626A68CEB00F83B1D /* 04.png in Resources */ = {isa = PBXBuildFile; fileRef = A136E3EE26A68CEA00F83B1D /* 04.png */; };
+		A136E3F726A68CEB00F83B1D /* 05.png in Resources */ = {isa = PBXBuildFile; fileRef = A136E3EF26A68CEA00F83B1D /* 05.png */; };
+		A136E3F826A68CEB00F83B1D /* 06.png in Resources */ = {isa = PBXBuildFile; fileRef = A136E3F026A68CEA00F83B1D /* 06.png */; };
+		A136E3F926A68CEB00F83B1D /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = A136E3F126A68CEB00F83B1D /* 01.png */; };
+		A136E3FA26A68CEB00F83B1D /* 07.png in Resources */ = {isa = PBXBuildFile; fileRef = A136E3F226A68CEB00F83B1D /* 07.png */; };
+		A136E3FB26A68CEB00F83B1D /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = A136E3F326A68CEB00F83B1D /* pokemon.csv */; };
+		A136E3FE26A68ECA00F83B1D /* PokemonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A136E3FD26A68ECA00F83B1D /* PokemonData.swift */; };
+		A136E40126A6915000F83B1D /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A136E40026A6915000F83B1D /* RowView.swift */; };
+		A136E40426A6987600F83B1D /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A136E40326A6987600F83B1D /* DataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +31,17 @@
 		A136E3E026A6895A00F83B1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A136E3E326A6895A00F83B1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A136E3E526A6895A00F83B1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A136E3EC26A68CEA00F83B1D /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
+		A136E3ED26A68CEA00F83B1D /* 03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 03.png; sourceTree = "<group>"; };
+		A136E3EE26A68CEA00F83B1D /* 04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 04.png; sourceTree = "<group>"; };
+		A136E3EF26A68CEA00F83B1D /* 05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 05.png; sourceTree = "<group>"; };
+		A136E3F026A68CEA00F83B1D /* 06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 06.png; sourceTree = "<group>"; };
+		A136E3F126A68CEB00F83B1D /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
+		A136E3F226A68CEB00F83B1D /* 07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 07.png; sourceTree = "<group>"; };
+		A136E3F326A68CEB00F83B1D /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
+		A136E3FD26A68ECA00F83B1D /* PokemonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonData.swift; sourceTree = "<group>"; };
+		A136E40026A6915000F83B1D /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		A136E40326A6987600F83B1D /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +77,18 @@
 				A136E3DC26A6895700F83B1D /* PokemonAppApp.swift */,
 				A136E3DE26A6895700F83B1D /* ContentView.swift */,
 				A136E3E026A6895A00F83B1D /* Assets.xcassets */,
+				A136E3FD26A68ECA00F83B1D /* PokemonData.swift */,
+				A136E40026A6915000F83B1D /* RowView.swift */,
+				A136E40326A6987600F83B1D /* DataSource.swift */,
 				A136E3E526A6895A00F83B1D /* Info.plist */,
+				A136E3F126A68CEB00F83B1D /* 01.png */,
+				A136E3EC26A68CEA00F83B1D /* 02.png */,
+				A136E3ED26A68CEA00F83B1D /* 03.png */,
+				A136E3EE26A68CEA00F83B1D /* 04.png */,
+				A136E3EF26A68CEA00F83B1D /* 05.png */,
+				A136E3F026A68CEA00F83B1D /* 06.png */,
+				A136E3F226A68CEB00F83B1D /* 07.png */,
+				A136E3F326A68CEB00F83B1D /* pokemon.csv */,
 				A136E3E226A6895A00F83B1D /* Preview Content */,
 			);
 			path = PokemonApp;
@@ -126,8 +159,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A136E3F626A68CEB00F83B1D /* 04.png in Resources */,
+				A136E3F526A68CEB00F83B1D /* 03.png in Resources */,
+				A136E3F926A68CEB00F83B1D /* 01.png in Resources */,
+				A136E3FA26A68CEB00F83B1D /* 07.png in Resources */,
+				A136E3FB26A68CEB00F83B1D /* pokemon.csv in Resources */,
+				A136E3F726A68CEB00F83B1D /* 05.png in Resources */,
 				A136E3E426A6895A00F83B1D /* Preview Assets.xcassets in Resources */,
 				A136E3E126A6895A00F83B1D /* Assets.xcassets in Resources */,
+				A136E3F826A68CEB00F83B1D /* 06.png in Resources */,
+				A136E3F426A68CEB00F83B1D /* 02.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +180,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A136E3DF26A6895700F83B1D /* ContentView.swift in Sources */,
+				A136E3FE26A68ECA00F83B1D /* PokemonData.swift in Sources */,
 				A136E3DD26A6895700F83B1D /* PokemonAppApp.swift in Sources */,
+				A136E40426A6987600F83B1D /* DataSource.swift in Sources */,
+				A136E40126A6915000F83B1D /* RowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
