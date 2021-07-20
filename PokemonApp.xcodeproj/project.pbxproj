@@ -22,6 +22,7 @@
 		A136E3FE26A68ECA00F83B1D /* PokemonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A136E3FD26A68ECA00F83B1D /* PokemonData.swift */; };
 		A136E40126A6915000F83B1D /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A136E40026A6915000F83B1D /* RowView.swift */; };
 		A136E40426A6987600F83B1D /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A136E40326A6987600F83B1D /* DataSource.swift */; };
+		A136E40726A6A14C00F83B1D /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A136E40626A6A14C00F83B1D /* ListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		A136E3FD26A68ECA00F83B1D /* PokemonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonData.swift; sourceTree = "<group>"; };
 		A136E40026A6915000F83B1D /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
 		A136E40326A6987600F83B1D /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		A136E40626A6A14C00F83B1D /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				A136E3FD26A68ECA00F83B1D /* PokemonData.swift */,
 				A136E40026A6915000F83B1D /* RowView.swift */,
 				A136E40326A6987600F83B1D /* DataSource.swift */,
+				A136E40626A6A14C00F83B1D /* ListView.swift */,
 				A136E3E526A6895A00F83B1D /* Info.plist */,
 				A136E3F126A68CEB00F83B1D /* 01.png */,
 				A136E3EC26A68CEA00F83B1D /* 02.png */,
@@ -181,6 +184,7 @@
 			files = (
 				A136E3DF26A6895700F83B1D /* ContentView.swift in Sources */,
 				A136E3FE26A68ECA00F83B1D /* PokemonData.swift in Sources */,
+				A136E40726A6A14C00F83B1D /* ListView.swift in Sources */,
 				A136E3DD26A6895700F83B1D /* PokemonAppApp.swift in Sources */,
 				A136E40426A6987600F83B1D /* DataSource.swift in Sources */,
 				A136E40126A6915000F83B1D /* RowView.swift in Sources */,
