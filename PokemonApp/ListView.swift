@@ -12,6 +12,7 @@ struct ListView: View {
     
     var body: some View {
         NavigationView{
+            //listを順に表示
             List(0 ..< dataSource.pokemon.count){
                 item in RowView(pokemon: dataSource.pokemon[item])
             }

@@ -9,6 +9,7 @@ import SwiftUI
 
 struct RowView: View {
     var pokemon:PokemonData
+    @State private var showAlert = false
     
     var body: some View {
         VStack(alignment: .leading) {
@@ -18,7 +19,14 @@ struct RowView: View {
                 .shadow(radius: 10)
                 .border(Color.white, width: 2)
             
-            Text(pokemon.name).font(.headline)
+            HStack{
+                Text(pokemon.name).font(.headline)
+                Button(action: {self.showAlert.toggle()}){
+                    Text("")
+                }.alert(isPresented: $showAlert){
+                    Alert(title: Text(pokemon.name), message: Text("たいぷ:"+pokemon.type + "\nとくちょう:"+pokemon.data))
+                }
+            }
             Spacer()
         }.padding()
     }
